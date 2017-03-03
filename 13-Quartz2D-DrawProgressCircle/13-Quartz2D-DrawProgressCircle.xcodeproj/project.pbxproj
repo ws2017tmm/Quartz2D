@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BC1C7D1C2BD0A500F612EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC1C7C1C2BD0A500F612EA /* main.m */; };
+		08BC1C801C2BD0A500F612EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC1C7F1C2BD0A500F612EA /* AppDelegate.m */; };
+		08BC1C831C2BD0A500F612EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC1C821C2BD0A500F612EA /* ViewController.m */; };
+		08BC1C861C2BD0A500F612EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BC1C841C2BD0A500F612EA /* Main.storyboard */; };
+		08BC1C881C2BD0A500F612EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BC1C871C2BD0A500F612EA /* Images.xcassets */; };
+		08BC1C8B1C2BD0A500F612EA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08BC1C891C2BD0A500F612EA /* LaunchScreen.xib */; };
+		08BC1C971C2BD0A500F612EA /* _3_Quartz2D_DrawProgressCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC1C961C2BD0A500F612EA /* _3_Quartz2D_DrawProgressCircleTests.m */; };
+		08BC1CA21C2BD5A800F612EA /* WSProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BC1CA11C2BD5A800F612EA /* WSProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08BC1C911C2BD0A500F612EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BC1C6F1C2BD0A500F612EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BC1C761C2BD0A500F612EA;
+			remoteInfo = "13-Quartz2D-DrawProgressCircle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BC1C771C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "13-Quartz2D-DrawProgressCircle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BC1C7B1C2BD0A500F612EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BC1C7C1C2BD0A500F612EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BC1C7E1C2BD0A500F612EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08BC1C7F1C2BD0A500F612EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08BC1C811C2BD0A500F612EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08BC1C821C2BD0A500F612EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08BC1C851C2BD0A500F612EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08BC1C871C2BD0A500F612EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08BC1C8A1C2BD0A500F612EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08BC1C901C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "13-Quartz2D-DrawProgressCircleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BC1C951C2BD0A500F612EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BC1C961C2BD0A500F612EA /* _3_Quartz2D_DrawProgressCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _3_Quartz2D_DrawProgressCircleTests.m; sourceTree = "<group>"; };
+		08BC1CA01C2BD5A800F612EA /* WSProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSProgressView.h; sourceTree = "<group>"; };
+		08BC1CA11C2BD5A800F612EA /* WSProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BC1C741C2BD0A500F612EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BC1C8D1C2BD0A500F612EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BC1C6E1C2BD0A500F612EA = {
+			isa = PBXGroup;
+			children = (
+				08BC1C791C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle */,
+				08BC1C931C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests */,
+				08BC1C781C2BD0A500F612EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BC1C781C2BD0A500F612EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BC1C771C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle.app */,
+				08BC1C901C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BC1C791C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle */ = {
+			isa = PBXGroup;
+			children = (
+				08BC1C7E1C2BD0A500F612EA /* AppDelegate.h */,
+				08BC1C7F1C2BD0A500F612EA /* AppDelegate.m */,
+				08BC1C811C2BD0A500F612EA /* ViewController.h */,
+				08BC1C821C2BD0A500F612EA /* ViewController.m */,
+				08BC1CA01C2BD5A800F612EA /* WSProgressView.h */,
+				08BC1CA11C2BD5A800F612EA /* WSProgressView.m */,
+				08BC1C841C2BD0A500F612EA /* Main.storyboard */,
+				08BC1C871C2BD0A500F612EA /* Images.xcassets */,
+				08BC1C891C2BD0A500F612EA /* LaunchScreen.xib */,
+				08BC1C7A1C2BD0A500F612EA /* Supporting Files */,
+			);
+			path = "13-Quartz2D-DrawProgressCircle";
+			sourceTree = "<group>";
+		};
+		08BC1C7A1C2BD0A500F612EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BC1C7B1C2BD0A500F612EA /* Info.plist */,
+				08BC1C7C1C2BD0A500F612EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08BC1C931C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests */ = {
+			isa = PBXGroup;
+			children = (
+				08BC1C961C2BD0A500F612EA /* _3_Quartz2D_DrawProgressCircleTests.m */,
+				08BC1C941C2BD0A500F612EA /* Supporting Files */,
+			);
+			path = "13-Quartz2D-DrawProgressCircleTests";
+			sourceTree = "<group>";
+		};
+		08BC1C941C2BD0A500F612EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BC1C951C2BD0A500F612EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BC1C761C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BC1C9A1C2BD0A500F612EA /* Build configuration list for PBXNativeTarget "13-Quartz2D-DrawProgressCircle" */;
+			buildPhases = (
+				08BC1C731C2BD0A500F612EA /* Sources */,
+				08BC1C741C2BD0A500F612EA /* Frameworks */,
+				08BC1C751C2BD0A500F612EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13-Quartz2D-DrawProgressCircle";
+			productName = "13-Quartz2D-DrawProgressCircle";
+			productReference = 08BC1C771C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08BC1C8F1C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BC1C9D1C2BD0A500F612EA /* Build configuration list for PBXNativeTarget "13-Quartz2D-DrawProgressCircleTests" */;
+			buildPhases = (
+				08BC1C8C1C2BD0A500F612EA /* Sources */,
+				08BC1C8D1C2BD0A500F612EA /* Frameworks */,
+				08BC1C8E1C2BD0A500F612EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BC1C921C2BD0A500F612EA /* PBXTargetDependency */,
+			);
+			name = "13-Quartz2D-DrawProgressCircleTests";
+			productName = "13-Quartz2D-DrawProgressCircleTests";
+			productReference = 08BC1C901C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BC1C6F1C2BD0A500F612EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = XSUNT45;
+				TargetAttributes = {
+					08BC1C761C2BD0A500F612EA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					08BC1C8F1C2BD0A500F612EA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 08BC1C761C2BD0A500F612EA;
+					};
+				};
+			};
+			buildConfigurationList = 08BC1C721C2BD0A500F612EA /* Build configuration list for PBXProject "13-Quartz2D-DrawProgressCircle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08BC1C6E1C2BD0A500F612EA;
+			productRefGroup = 08BC1C781C2BD0A500F612EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BC1C761C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle */,
+				08BC1C8F1C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BC1C751C2BD0A500F612EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BC1C861C2BD0A500F612EA /* Main.storyboard in Resources */,
+				08BC1C8B1C2BD0A500F612EA /* LaunchScreen.xib in Resources */,
+				08BC1C881C2BD0A500F612EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BC1C8E1C2BD0A500F612EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BC1C731C2BD0A500F612EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BC1C831C2BD0A500F612EA /* ViewController.m in Sources */,
+				08BC1CA21C2BD5A800F612EA /* WSProgressView.m in Sources */,
+				08BC1C801C2BD0A500F612EA /* AppDelegate.m in Sources */,
+				08BC1C7D1C2BD0A500F612EA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BC1C8C1C2BD0A500F612EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BC1C971C2BD0A500F612EA /* _3_Quartz2D_DrawProgressCircleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08BC1C921C2BD0A500F612EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BC1C761C2BD0A500F612EA /* 13-Quartz2D-DrawProgressCircle */;
+			targetProxy = 08BC1C911C2BD0A500F612EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BC1C841C2BD0A500F612EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BC1C851C2BD0A500F612EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08BC1C891C2BD0A500F612EA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BC1C8A1C2BD0A500F612EA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BC1C981C2BD0A500F612EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08BC1C991C2BD0A500F612EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BC1C9B1C2BD0A500F612EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "13-Quartz2D-DrawProgressCircle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08BC1C9C1C2BD0A500F612EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "13-Quartz2D-DrawProgressCircle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08BC1C9E1C2BD0A500F612EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "13-Quartz2D-DrawProgressCircleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13-Quartz2D-DrawProgressCircle.app/13-Quartz2D-DrawProgressCircle";
+			};
+			name = Debug;
+		};
+		08BC1C9F1C2BD0A500F612EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "13-Quartz2D-DrawProgressCircleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/13-Quartz2D-DrawProgressCircle.app/13-Quartz2D-DrawProgressCircle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BC1C721C2BD0A500F612EA /* Build configuration list for PBXProject "13-Quartz2D-DrawProgressCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BC1C981C2BD0A500F612EA /* Debug */,
+				08BC1C991C2BD0A500F612EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BC1C9A1C2BD0A500F612EA /* Build configuration list for PBXNativeTarget "13-Quartz2D-DrawProgressCircle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BC1C9B1C2BD0A500F612EA /* Debug */,
+				08BC1C9C1C2BD0A500F612EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08BC1C9D1C2BD0A500F612EA /* Build configuration list for PBXNativeTarget "13-Quartz2D-DrawProgressCircleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BC1C9E1C2BD0A500F612EA /* Debug */,
+				08BC1C9F1C2BD0A500F612EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BC1C6F1C2BD0A500F612EA /* Project object */;
+}
